@@ -1,0 +1,15 @@
+$main-color: white;
+
+.newclass {
+  color: red;
+  background-color: $main-color;
+}
+
+.todos {
+  background-color: $main-color;
+  color: green;
+  .todo {
+    background-color: #000066;
+    color: white;
+  }
+}
